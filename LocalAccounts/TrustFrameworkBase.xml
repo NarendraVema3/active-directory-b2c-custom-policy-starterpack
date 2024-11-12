@@ -4,9 +4,15 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06"
   PolicySchemaVersion="0.3.0.0"
-  TenantId="yourtenant.onmicrosoft.com"
+  TenantId="gaanvikaorg.onmicrosoft.com"
   PolicyId="B2C_1A_TrustFrameworkBase"
-  PublicPolicyUri="http://yourtenant.onmicrosoft.com/B2C_1A_TrustFrameworkBase">
+  PublicPolicyUri="http://gaanvikaorg.onmicrosoft.com/B2C_1A_TrustFrameworkBase">
+
+  <!-- Validate policy from below link  -->
+  <!-- https://learn.microsoft.com/en-us/azure/active-directory-b2c/custom-policies-series-install-xml-extensions -->
+
+  <!-- Rest API Call reference -->
+  <!-- https://learn.microsoft.com/en-us/azure/active-directory-b2c/custom-policies-series-call-rest-api -->
 
   <BuildingBlocks>
     <ClaimsSchema>
